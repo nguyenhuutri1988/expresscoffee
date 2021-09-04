@@ -1,0 +1,45 @@
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    
+    text-align: center;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #223366;
+    color: white;
+  }
+
+
+  #contact-form input[type="submittest"],
+.comment-form input[type="submittest"] {
+  padding: 12px 30px;
+  outline: none;
+  border: none;
+  background: #ffba00;
+  color: #ffffff;
+  font-size: 13px;
+  font-family: 'Raleway', sans-serif;
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  margin-bottom: 10px;
+}
+#contact-form input[type="submittest"]:hover,
+.comment-form input[type="submittest"]:hover {
+  opacity: 0.7;
+}
